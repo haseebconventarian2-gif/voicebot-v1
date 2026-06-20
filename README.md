@@ -15,6 +15,14 @@ Azure-native banking voice bot with GPT-4o, Azure AI Search, speech processing, 
 
 Azure-native banking voice bot with GPT-4o, Azure AI Search, speech processing, WhatsApp, and ACS integration.
 
+## 📖 The Story
+
+Voicebot v1 marks the point where a banking chatbot became a multi-service assistant. Instead of treating text generation, document search, audio, and messaging as separate demos, this version brings them together behind one FastAPI application.
+
+Azure AI Search supplies grounded banking context, GPT-4o produces the response, and Azure speech deployments support transcription and synthesis. WhatsApp and ACS modules show how the assistant can move beyond a browser into customer communication channels.
+
+This version establishes the architectural baseline for the later voicebot experiments. The next step is to simplify overlapping integrations, add end-to-end tests, and document which channel path is considered canonical.
+
 ## Highlights
 
 - Text conversation endpoint
@@ -90,4 +98,5 @@ This is a learning and reference implementation. Review security, validation, mo
 - Define retention and privacy controls for audio and customer data.
 
 > This README reflects the current codebase. External AI, telephony, and messaging features require their respective accounts, assets, and approvals.
+
 
